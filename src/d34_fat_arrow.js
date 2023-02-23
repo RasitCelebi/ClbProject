@@ -21,16 +21,16 @@ Hi. This is fatArrow Version Function. */
 
 // if a function has not parametres, we can write the code arrow function as follows : 
 
-const fatArrow2 = _ => {
+const fatArrowNoParameters = _ => {
     console.log("Hi. i have not a parametres. My name is fatArrow2 function")
 }
 
-const fatArrow3Parametres = (numberr) => {
+const fatArrowParameterized = (numberr) => {
     return numberr * numberr * numberr;
 }
 
-fatArrow2();
-console.log(fatArrow3Parametres(3));
+fatArrowNoParameters();
+console.log(fatArrowParameterized(3));
 
 /* Output : 
 Hi. i have not a parametres. My name is fatArrow2 function

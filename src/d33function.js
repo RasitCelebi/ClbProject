@@ -54,9 +54,9 @@ Geriye ArrayList döndüren bir fonksiyon yazdım. Js'de geriye değer döndür�
 function cumNameSurname(name, surname){
 
     let nameSurname = name + " " + surname;
-    let nameSurname2 = `name : ${name} surname: ${surname}`
+    let differentWayNameSurname = `name : ${name} surname: ${surname}`
 
-    let twoOptionPrint = nameSurname + "\n" + nameSurname2
+    let twoOptionPrint = nameSurname + "\n" + differentWayNameSurname
     return twoOptionPrint;
     // return değerinden sonra yazılan herhangi bir kod gözükmeyecektir.
 
